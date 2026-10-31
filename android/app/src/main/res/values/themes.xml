@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PrivateX" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/px_teal</item>
+        <item name="colorSecondary">@color/px_cyan</item>
+        <item name="android:windowBackground">@color/px_navy</item>
+        <item name="android:statusBarColor">@color/px_navy</item>
+        <item name="android:navigationBarColor">@color/px_navy</item>
+        <item name="android:textColorPrimary">@color/px_text</item>
+        <item name="android:textColorSecondary">@color/px_text_dim</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="px_navy">#050B18</color>
+    <color name="px_navy_light">#0B1626</color>
+    <color name="px_cyan">#22D3EE</color>
+    <color name="px_teal">#2DD4BF</color>
+    <color name="px_text">#E6F1F5</color>
+    <color name="px_text_dim">#8FA3B0</color>
+</resources>
