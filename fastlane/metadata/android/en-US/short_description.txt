@@ -1,0 +1,1 @@
+A private GeckoView browser with vault, research & study tools. No accounts, no telemetry.

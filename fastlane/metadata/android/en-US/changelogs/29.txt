@@ -1,0 +1,1 @@
+Redesign programme close-out (phase 10): full regression — 72 tests, 16 classes, all green; REDESIGN_TEST_REPORT published in the repo with per-feature status labels. No behaviour changes beyond the version.

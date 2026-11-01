@@ -1,0 +1,1 @@
+All screens on the design system (redesign phases 5+6): every activity follows the theme; new Reading list in the Library (menu > Save to reading list); history renders the 300 most recent visits with a note.

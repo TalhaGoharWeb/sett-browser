@@ -1,0 +1,1 @@
+SETT Search (redesign phase 7): native results for DuckDuckGo and your own SearXNG instance, rendered by Sett; 5 new categories (Books, PDFs, Code, Forums, Open source); SafeSearch and language as real provider parameters; optional suggestions (off by default); recent searches with clear/disable.
