@@ -1,0 +1,5 @@
+Phases 11 + 12 in one release.
+- Library Search: one on-device index over your bookmarks, history, research collections, flashcards, vocabulary and notes (Arabic-normalised matching).
+- Check for updates (menu): compares your version with the signed GitHub releases feed — closing the audit's top finding as far as a store-less app can.
+- Phase 12 security review published (docs/SECURITY_REVIEW_PHASE12.md); F-Droid metadata prepared; About screen corrected.
+- 56 unit tests; 42-point release verification.
