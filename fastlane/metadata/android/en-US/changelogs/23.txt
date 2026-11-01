@@ -1,0 +1,1 @@
+Home page redesign (phase 3): the search field now resolves addresses, shortcuts are your own editable grid, the protection card reads your real settings, dashboard sections (bookmarks, continue, recently closed) render from your Library, category chips open SETT Search.
