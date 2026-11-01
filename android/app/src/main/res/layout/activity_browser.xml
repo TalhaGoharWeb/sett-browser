@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/px_navy">
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:max="100"
+        android:progress="0"
+        android:progressTint="@color/px_teal"
+        android:progressBackgroundTint="@color/px_navy_light" />
+
+    <FrameLayout
+        android:id="@+id/engine_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/chrome_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_chrome"
+        android:elevation="10dp"
+        android:padding="6dp"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/btn_shields"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_shield"
+            android:tint="@color/px_teal"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Shields" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="6dp"
+            android:hint="Search or enter address"
+            android:textColor="@color/px_text"
+            android:textColorHint="@color/px_text_dim"
+            android:textSize="15sp"
+            android:inputType="textUri"
+            android:imeOptions="actionGo"
+            android:singleLine="true"
+            android:background="@drawable/bg_pill"
+            android:paddingStart="16dp"
+            android:paddingEnd="14dp" />
+
+        <ImageButton
+            android:id="@+id/btn_reload"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="13dp"
+            android:src="@drawable/ic_reload"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Reload" />
+
+        <TextView
+            android:id="@+id/btn_tabs"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/bg_tabs_badge"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/px_teal"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:contentDescription="Tabs" />
+
+        <ImageButton
+            android:id="@+id/btn_menu"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:src="@drawable/ic_dots"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Menu" />
+    </LinearLayout>
+</LinearLayout>

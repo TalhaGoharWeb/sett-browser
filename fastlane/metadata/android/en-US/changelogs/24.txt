@@ -1,0 +1,1 @@
+Browser chrome (redesign phase 4): grouped menu with Navigation group and Share, real shield icon tinted by connection security, 48dp targets throughout, chrome and tab tray follow the theme.
