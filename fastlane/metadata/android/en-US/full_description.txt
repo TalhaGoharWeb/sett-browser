@@ -1,0 +1,45 @@
+Sett is a free, open-source (GPL-3.0) private browser for Android,
+built on Mozilla's GeckoView engine via Android Components — the
+same engine family as Firefox for Android. It is named after the
+badger's burrow: a guarded home. Brock the badger stands watch.
+
+No accounts. No telemetry. No Sett servers — there is nothing to
+phone home to.
+
+BROWSING
+- Enhanced Tracking Protection with Total Cookie Protection,
+  HTTPS-Only mode, Global Privacy Control
+- Sett Shield: see what the engine blocked on the current page,
+  manage per-site exceptions, fingerprinting controls, clear-on-exit
+  with a startup sweep, and a Fire button that clears everything
+- Tab Spaces, reader view, Library (bookmarks, history, downloads,
+  recently closed tabs), extensions installed from .xpi files
+- Network Protection center: DNS-over-HTTPS providers, manual
+  proxy, an Orbot preset (labelled honestly: not the Tor Browser)
+
+TOOLS IN THE BURROW
+- Encrypted password vault (Argon2id + XChaCha20-Poly1305 via
+  libsodium), with recovery key and biometric unlock
+- Utilities: metadata stripper for photos, password strength and
+  breach check (k-anonymity), file hashes, QR make/read, text
+  tools, unit converter and calculator, PDF merge/extract/rotate
+- Developer Studio: API tester, security-header analyzer, JWT
+  decoder, regex and URL tools, robots/sitemap viewers
+- SETT Search: category search with transparent providers and a
+  data-flow page; optional self-hosted SearXNG
+- Research Desk: scholarly search over OpenAlex, Crossref,
+  DataCite and DOAJ; DOI lookup; collections with BibTeX/RIS
+  export; DOI extraction from PDFs; Arabic/Urdu text search
+- Study Center: SM-2 spaced-repetition flashcards, vocabulary,
+  page notes, reading tracker with focus timer, rule-based quiz lab
+- AI Workspace (optional, off by default): bring your own key for
+  an OpenAI-compatible provider; the key lives only in the vault,
+  private tabs are refused, and every send asks for consent first
+- Library Search: one on-device index over everything above
+
+HONEST LIMITS
+A browser reduces tracking; it cannot make you anonymous. Sett
+claims no fingerprinting score and no anonymity. Spaces group tabs;
+they are not separate identities. Updates are checked in-app
+against the project's GitHub Releases — installs stay manual and
+signed with the project key.
