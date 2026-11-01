@@ -1,0 +1,14 @@
+# Signing material — NEVER committed
+*.jks
+key.properties
+release/*.apk
+
+# Build outputs and vendored dependencies (rebuilt by vendor_mozilla.py)
+android/local-maven/
+android/build/
+android/app/build/
+android/.gradle/
+.gradle/
+
+# Internal working files (build logs, vendor helpers)
+hidden_files/
