@@ -1,0 +1,1 @@
+SETT Search white-label: branded search home (Brock + 'Search freely. Search intelligently.'), public SearXNG instances from the searx.space registry for server-free custom results, favicons and full result actions (new tab, share, bookmark), SearXNG time-range filter, home-page queries open SETT Search. Provider evaluation: docs/WHITE_LABEL_SEARCH.md.

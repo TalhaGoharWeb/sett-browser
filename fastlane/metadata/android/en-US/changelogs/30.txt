@@ -1,0 +1,1 @@
+Device fixes: searches no longer use the unresolvable html.duckduckgo.com host (now duckduckgo.com); keyboard no longer opens by itself (dismissed on navigation, tab switch, resume); home page can no longer render blank (Brock bundled and embedded, minimal fallback page). DuckDuckGo HTML parsing removed for terms compliance — it opens as a direct provider.
