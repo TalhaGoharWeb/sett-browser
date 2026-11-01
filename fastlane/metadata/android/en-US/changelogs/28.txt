@@ -1,0 +1,1 @@
+Accessibility pass (redesign phase 9): Light-theme caption contrast fixed (2.84:1 to 4.52:1) with an automated WCAG guard in the test suite; Compact density now applies across all screens (touch targets stay 48dp); TalkBack descriptions on search result cards; larger home-page category chips. Full audit in docs/ACCESSIBILITY.md.

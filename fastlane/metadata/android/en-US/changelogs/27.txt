@@ -1,0 +1,1 @@
+Scholarly search in SETT Search (redesign phase 8): Academic renders OpenAlex and Semantic Scholar results natively — authors, year, venue, citations, open-access badge, DOI; long-press opens the OA PDF, copies the DOI or saves to the reading list.
