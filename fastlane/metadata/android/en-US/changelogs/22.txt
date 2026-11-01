@@ -1,0 +1,1 @@
+Design foundation (redesign phase 2): token-based design system, Settings > Appearance theme (system / dark / light) and list density, shared UI components; Shield, Spaces and Library Search screens migrated.
